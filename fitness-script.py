@@ -94,12 +94,12 @@ class StravaETL:
                 'year': pd.to_datetime(activity['start_date'][:10]).year
             })
             
-            df = pd.DataFrame(data)
-            df['date'] = pd.to_datetime(df['date'])
-            df = df.sort_values('date', ascending=False)
+        df = pd.DataFrame(data)
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values('date', ascending=False)
 
-            print(f"Processed {len(df)} activities")
-            return df
+        print(f"Processed {len(df)} activities")
+        return df
         
     def export_to_csv(self,df,filename='strava_data.csv'):
         #export DataFrame to CSV for PowerBi

@@ -59,7 +59,7 @@ Personal fitness analytics dashboard that automatically syncs workout data from 
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/fitness-dashboard.git
+git clone https://github.com/malic33100/fitness-dashboard.git
 cd fitness-dashboard
 ```
 
@@ -107,7 +107,7 @@ STRAVA_REFRESH_TOKEN=will_add_after_authorization
 
 Run the authorization script to get your refresh token:
 ```bash
-python get_refresh_token.py
+python refresh-token.py
 ```
 
 **Steps:**
@@ -149,16 +149,17 @@ python fitness-script.py
 ## Project Structure
 ```
 fitness-dashboard/
-├── .env                      # Environment variables (not in repo)
-├── .gitignore               # Git ignore rules
+├── .env**                      # Environment variables (not in repo)
+├── .gitignore**               # Git ignore rules
 ├── requirements.txt         # Python dependencies
 ├── README.md                # This file
 ├── fitness-script.py        # Main ETL pipeline
-├── get_refresh_token.py     # OAuth setup script
-├── strava_data.csv          # Generated data (not in repo)
+├── refresh-token.py     # OAuth setup script
+├── strava_data.csv**          # Generated data (not in repo)
 └── screenshots/             # Dashboard images
     └── dashboard.png
 ```
+** - not included in git clone, must create locally
 
 ## Architecture
 ```

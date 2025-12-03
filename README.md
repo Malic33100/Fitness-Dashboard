@@ -1,14 +1,16 @@
 # Fitness Analytics Dashboard
 
-![Dashboard Preview](TBD)
+![Dashboard Preview](img/fitness-dashboard.png)
 
 Real-time workout tracking and analytics dashboard integrating Strava API with automated data pipelines and interactive visualizations.
+
+
 
 ##  Overview
 
 Personal fitness analytics dashboard that automatically syncs workout data from Strava, processes it through a Python ETL pipeline, and visualizes training metrics in an interactive PowerBI dashboard.
 
-**Live Dashboard:** [Link coming soon]
+[Live Dashboard](https://app.powerbi.com/reportEmbed?reportId=b743bdc7-13fc-4e88-b021-da5e6a63bab9&autoAuth=true&ctid=eeaf6e6c-15d9-425a-8ac8-260fd4499406&actionBarEnabled=true)]
 
 ##  Features
 
